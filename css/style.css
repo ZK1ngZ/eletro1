@@ -18,7 +18,7 @@ body{
 }
 
 header {
-	background:  gray;
+	background:  #17EBCB;
 	width: 100%;
 }
 .logo img {
@@ -26,7 +26,9 @@ header {
 	height: 120px;
 	
 }
-
+.menu-principal{
+	color: black;
+}
 /* busca */
 .busca {
 	overflow: hidden; /* clearfix */
@@ -181,20 +183,20 @@ header {
     height: 500px;
     margin-left: 30px;
     margin-top: 10px;
-
+border-radius: 12px;
    } 
    .fone{
     height: 1300px;
     width: 1200px;
-    background-color: #EFBC75;
+    background-color: #17EBCB;
 margin-left: 400px;
 margin-top: 100px;
-
+border-radius: 28px;
 align-items: center;
 position: absolute;
    }
    .txt-jbl{
-    color: white;
+    color: black;
     font-size: 30px;
     width: 1300px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -205,7 +207,9 @@ position: absolute;
     border-radius: 4px;
     height: 40px;
     width: 180px;
-	
+	background-color: lightgreen;
+	border-style: solid;
+	border-color: lightgreen;
 	
    }
 
@@ -216,25 +220,35 @@ position: absolute;
     }
    
    h3{
-    color: white;
+    
     font-size: 30PX;
    }
    li{
-    color: white;
+    color:black;
     
    }
-   .fone img{
-    
-   }
-   
-   .list-2{
-	
-   }
-   .txt-jbl2{
-	color: white;
 
+   
+   .txt-jbl2{
+	color:black;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 
    }
    p{
 	margin-left: 340px;
+   }
+   #qtdn{
+	margin-left: 800px;
+	width: 100px;
+	border-radius: 5px;
+   }
+   .tema-fundo{
+	background-color: #27284B;
+	height: 180vh;
+   }
+   .list-2{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+   #qtd{
+	color: red;
    }

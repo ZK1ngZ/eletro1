@@ -14,11 +14,14 @@ body{
 
 	font-family:helvetica, sans-serif;
 	line-height: 1.4;
-
+	
 }
-
+.iii{
+	background-color: #27284B;
+	height: 180vh;
+}
 header {
-	background:  ;
+	
 	width: 100%;
 }
 .logo img {
@@ -68,14 +71,14 @@ header {
 		}
 
 /* categorias */
-.noticias {
-	color:white ;
+.c {
+	color:black ;
 }
-.esportes {
-	color:white ;
+.s {
+	color:black ;
 }
-.famosos {
-	color: white;
+.h {
+	color: black;
 }
 
 .menu-principal {
@@ -178,7 +181,7 @@ header {
 		}
 		.carousel-inner{
 			transform: scale(0.4);
-
+border-radius: 28px;
 		}
 .carousel img{
 	height: 900px;
@@ -196,7 +199,7 @@ header {
  }
 
 .secao{
-	background-color: darkgray;
+	background-color: #17EBCB;
 	align-items: center;
 	
 }
@@ -257,7 +260,7 @@ transition: 0.6s;
 	margin-top: 270px;
 }
 .txt1{
-	color:#17EBCB;
+	color:black;
 }
 
 .secao2{
@@ -287,6 +290,7 @@ width:210px;
 
 .menu-principal :hover{
 transform: scale(1.1);
+
 }
 
 
@@ -304,3 +308,11 @@ cursor: pointer;
 		transform: scale(1.1);
 		transition: 6s;
 	 }
+
+.redes{
+	background-color: #27284B;
+	height: 100px;
+}
+.btn{
+	overflow: hidden;
+}

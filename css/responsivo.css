@@ -8,7 +8,9 @@
       width: 50%;
     }
     
-   
+   .fone{
+    width: 40%;
+   }
      
     }
    .secao2{
@@ -18,11 +20,11 @@
     
     width: 40%;
    }
-  
+ 
   
   @media (max-width: 600px){
     .barra-nav {
-      background: gray;
+      background: #17EBCB;
         padding: 1em;
         margin: 0;
     
@@ -37,7 +39,27 @@
     
         transition: left 0.3s ease-out;
     }
-  
+    
+  .fone{
+    padding: 1em;
+    margin: 0;
+    height: 100%;
+    width: 70%;
+    max-width: 400px;
+    position: fixed;
+    z-index: 1;
+    left: -90%;
+    transform: left 0.3s ease-out;
+    
+  }
+.txt-jbl{
+ font-size: 4px;
+ width: 10px;
+}
+  .fone-jbl{
+    height: 200px;
+    width: 300px;
+  }
     .secao2{
       margin-left: 150px;
     }
@@ -120,6 +142,9 @@
     .txt{
       margin-left: 500px;
     }
+
+  
+    
   }
   
   .secao{
