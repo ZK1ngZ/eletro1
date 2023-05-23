@@ -100,89 +100,7 @@ header {
 
 
 /* lista de notícias */
-.chamada {
-	border-bottom: 1px dotted #ccc;
-	display: block;
-	margin-bottom: 1em;
-	padding-bottom: 1em;
 
-	text-decoration: none;
-	width: 100%;
-	overflow: hidden;
-}
-	.chamada:last-child {
-		border-bottom: 0;
-	}
-
-	.chamada img {
-		border-radius: 5px;
-		display: block;
-		float: left;
-		margin-right: 0.8em;
-
-	}
-		.chamada.mini img {
-			margin-bottom: 0.4em;
-		}
-	.chamada:hover h2 {
-		text-decoration: underline;
-	}
-
-	.chamada.principal h2 {
-		font-size: 1.8em;
-		line-height: 1.05;
-	}
-	.chamada.normal h2 {
-		font-size: 1em;
-	}
-	.chamada.secundaria h2 {
-		font-size: 0.6em;
-	}
-	.chamada.mini {
-		padding-right: 0.35em;
-	}
-		:not(.mini) .chamada.mini + .mini {
-			padding-left: 0.35em;
-			padding-right: 0;
-		}
-
-
-/* direita da TV */
-.chamada.tv {
-	border: 1px solid #ccc;
-	border-radius: 5px;
-}
-	.tv img {
-		border-radius: 3px 3px 0 0;
-		margin-top: -1px;
-	
-	}
-	.tv p {
-		clear: both;
-		color: #999;
-		padding: 1.4em 1em 0.25em;
-	}
-	.tv h2 {
-		padding: 0 1em;
-		margin: 0;
-		border: 0;
-	}
-	.tv .bolinha {
-		display: inline-block;
-		border-radius: 50%;
-		background: #aaa;
-		height: 7px;
-		width: 7px;
-		margin-top: 1.4em;
-	}
-		.tv .bolinha:first-of-type {
-			background: #555;
-			margin-left: 1.5em;
-		}
-		.carousel-inner{
-			transform: scale(0.4);
-border-radius: 28px;
-		}
 .carousel img{
 	height: 900px;
 	width: 700px;
@@ -315,4 +233,8 @@ cursor: pointer;
 }
 .btn{
 	overflow: hidden;
+}
+
+.bi-bi-basket{
+cursor: pointer;
 }
