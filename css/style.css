@@ -178,31 +178,35 @@ header {
 		}
 
    .fone-jbl{
-    height: 300px;
-    margin-left: 170px;
-    margin-top: 180px;
+    height: 500px;
+    margin-left: 30px;
+    margin-top: 10px;
+
    } 
    .fone{
-    height: 800px;
-    width: 700px;
-    background-color: gray;
-margin-left: 500px;
+    height: 1300px;
+    width: 1200px;
+    background-color: #EFBC75;
+margin-left: 400px;
 margin-top: 100px;
-border-radius: 28px;
+
 align-items: center;
+position: absolute;
    }
    .txt-jbl{
     color: white;
     font-size: 30px;
-    width: 800px;
-    font-family: 'Russo One', sans-serif;
+    width: 1300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
    }
 
    .btn-compra{
-    margin-left: 220px;
-    border-radius: 18px;
+    margin-left: 800px;
+    border-radius: 4px;
     height: 40px;
     width: 180px;
+	
+	
    }
 
 
@@ -220,6 +224,17 @@ align-items: center;
     
    }
    .fone img{
-    border-radius: 28px;
+    
    }
    
+   .list-2{
+	
+   }
+   .txt-jbl2{
+	color: white;
+
+
+   }
+   p{
+	margin-left: 340px;
+   }
