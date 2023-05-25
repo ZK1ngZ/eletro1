@@ -104,6 +104,7 @@ header {
 .carousel img{
 	height: 900px;
 	width: 700px;
+	user-select: none;
 }
 
 
@@ -221,6 +222,7 @@ transform: scale(1.1);
 	 .bi-bi-house-fill{
 margin-left: 100px;
 cursor: pointer;
+
 	 }
 	 .bi-bi-house-fill :hover{
 		transform: scale(1.1);
@@ -240,4 +242,13 @@ cursor: pointer;
 }
 .carousel-inner{
 	border-radius: 28px;
+}
+.l{
+	color: black;
+}
+.bi-bi-basket{
+	transform: scale(1.1);
+}
+.cc{
+	color: black;
 }
