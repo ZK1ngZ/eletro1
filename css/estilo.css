@@ -238,3 +238,6 @@ cursor: pointer;
 .bi-bi-basket{
 cursor: pointer;
 }
+.carousel-inner{
+	border-radius: 28px;
+}
